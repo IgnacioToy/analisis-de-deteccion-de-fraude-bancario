@@ -1,0 +1,24 @@
+# Entornos virtuales (donde se instalan las librerías)
+venv/
+.venv/
+env/
+ENV/
+bin/
+lib/
+share/
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de Jupyter Notebook (temporales)
+.ipynb_checkpoints
+
+# Datos pesados (opcional, si guardas CSVs en una carpeta 'data')
+data/
+#*.csv
+#*.xlsx
+
+# Variables de entorno (claves de API, contraseñas)
+.env
